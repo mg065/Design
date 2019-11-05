@@ -1,0 +1,79 @@
+body{
+    font-family: 'Open sans',sans-serif;
+    background: black;
+}
+#container{
+    width: 1200px;
+    height: 600px;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(brainimagemaths.jpg);
+    background-size: 100%;
+    margin: 20px auto;
+}
+#Calculator{
+    height: 440px;
+    width: 250px;
+    background-color: #eaedbf;
+    margin: 0 auto;
+    top:90px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.18);
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 17px;
+    padding-top: 22px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 55px;
+    margin: 8px 16px;
+    font-size: 34px;
+}
+#keyboard{
+    height: 450px;
+}
+.operator, .number, .empty{
+    width: 31px;
+    height: 31px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+.number, .empty{
+    background-color: #eaedbf;
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus .empty:focus{
+    outline: 0;   
+}
+Button:nth-child(4){
+    font-size: 18px;
+    background-color: aqua;
+}
+Button:nth-child(8){
+    font-size: 18px;
+    background-color: blue;
+}
+Button:nth-child(12){
+    font-size: 18px;
+    background-color: blueviolet;
+}Button:nth-child(16){
+    font-size: 18px;
+    background-color: orangered;
+}Button:nth-child(20){
+    font-size: 18px;
+    background-color: green;
+}

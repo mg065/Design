@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+        <title> Calculator</title>
+    </head>
+    <body>
+     <!--   A Simple Calculator is not as Simple as It  Looks  -->
+        <div id="Container">
+            <div id="Calculator">
+                <div id="result">
+                    <div id="history">
+                        <p id="history-value"></p>
+                    </div>
+                    <div id="output">
+                        <p id="output-value"></p>
+                </div>
+                <div id="keyboard">
+                    <Button class="Operator" id=clear>C</Button>
+                    <Button class="Operator" id="backspace">CE</Button><Button class="Operator" id="%">%</Button><Button class="Operator" id="/">&#247</Button>
+                    <Button class="number" id="7">7</Button>
+                    <Button class="number" id="8">8</Button><Button class="number" id="9">9</Button><Button class="Operator" id="*">&times</Button><Button class="number" id="4">4</Button><Button class="number" id="5">5</Button><Button class="number" id="6">6</Button><Button class="Operator" id="-">-</Button>
+                        <Button class="number" id="1">1</Button>
+                        <Button class="number" id="2">2</Button><Button class="number" id="3">3</Button><Button class="Operator" id="+">+</Button>
+                        <Button class="empty" id="empty"></Button><Button class="number" id="0">0</Button><Button class="empty" id="empty"></Button>
+                        <Button class="Operator" id="=">=</Button>
+                </div>
+            </div>
+        </div>
+        <script src="Script.js"></script>
+    </body>
+</html>
